@@ -22,5 +22,16 @@ Each line of the story is printed using the print() function.
 9. Print a message wishing the user good luck with their PowerBall ticket.
 10. If the user did not respond with "yes" to the prompt asking if they want PowerBall numbers, print a farewell message.
 
+# Quiz Bowl
+Define a dictionary called `questions` with trivia questions as keys and their corresponding answers as values.
+2. Iterate over each question-answer pair in the `questions` dictionary using a for loop.
+3. Inside the loop:
+   - Print the current question to the user.
+   - Prompt the user to input their answer and store it in the variable `user_answer`.
+   - Check if the user's answer (converted to lowercase) matches the correct answer (also converted to lowercase) from the dictionary.
+   - If the answers match, print "Correct!" to provide feedback to the user.
+   - If the answers don't match, print "Incorrect. The correct answer is:" followed by the correct answer from the dictionary.
+4. After all questions have been asked and answered, print a thank you message to the user.
+
 
 
